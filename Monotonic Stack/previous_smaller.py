@@ -1,6 +1,6 @@
 def previous_smaller(nums):
     """
-    Strictly Increasing
+    Monotonically Increasing
     """
     N = len(nums)
     stack, previous_smaller = [], [-1] * N

@@ -1,6 +1,6 @@
 def next_greater(nums):
     """
-    Strictly decreasing stack
+    Monotonically decreasing stack
     """
     N = len(nums)
     stack, next_greater = [], [] * N
