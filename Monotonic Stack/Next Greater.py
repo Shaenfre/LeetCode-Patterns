@@ -3,7 +3,7 @@ def next_greater(nums):
     Monotonically decreasing stack
     """
     N = len(nums)
-    stack, next_greater = [], [] * N
+    stack, next_greater = [], [-1] * N
 
     for i in range(N):
         while stack and nums[stack[-1]] < nums[i]:
